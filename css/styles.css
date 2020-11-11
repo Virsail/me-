@@ -9,23 +9,8 @@ body,html {
 
 }
 
-.btn_one {
-    color:white;
-    padding:10px 40px;
-    border-radius:50px;
-    border:2px solid #fff;
-    font-size:18px;
-    font-family: 'Comfortaa', cursive;
-    font-weight:bold;
-    background:transparent;
-    transition:0.4s ease-in-out;
-    margin:30px 10px;
-}
-.btn_one:hover {
-    background:white;
-    cursor:pointer;
-    color:#000;
-}
+
+
 .btn_two {
     color:#000;
     padding:10px 40px;
@@ -250,23 +235,7 @@ img {
 ::placeholder {
     color:#fff;
 }
-.btn_one {
-    color:white;
-    padding:10px 40px;
-    border-radius:50px;
-    border:2px solid #fff;
-    font-size:18px;
-    font-family: 'Comfortaa', cursive;
-    font-weight:bold;
-    background:transparent;
-    transition:0.4s ease-in-out;
-    margin:30px 10px;
-}
-.btn_one:hover {
-    background:white;
-    cursor:pointer;
-    color:#000;
-}
+
 
 .project div {
     font-weight:normal;
