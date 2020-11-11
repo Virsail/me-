@@ -4,8 +4,44 @@ body,html {
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
     color:#fff;
-    background:rgb(0, 0, 0);
-    scroll-behavior: smooth;
+    background: black;
+    scroll-behavior: auto;
+
+}
+
+.btn_one {
+    color:white;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:transparent;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.btn_one:hover {
+    background:white;
+    cursor:pointer;
+    color:#000;
+}
+.btn_two {
+    color:#000;
+    padding:10px 40px;
+    border-radius:50px;
+    border:2px solid #fff;
+    font-size:18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:bold;
+    background:#fff;
+    transition:0.4s ease-in-out;
+    margin:30px 10px;
+}
+.btn_two:hover {
+    background:transparent;
+    cursor:pointer;
+    color:#fff;
 }
 #loading {
     width: 100vw;
@@ -95,9 +131,25 @@ img {
     color:#fff;
 }
 
-.col-md-4 {
-    background-image: url(../css/assets/IMG_20201011_170244.jpg);
+.myprojects {
+    padding-bottom: 200px;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 1rem;
+    font-size: 12px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    color: #1C2331;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 30px;
+    display: block;
 }
+
+
+
+
 #links a {
     margin:0px 30px;
     color:inherit;
@@ -152,6 +204,7 @@ img {
 #work {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
+    background-color: #1C2331;
 }
 #contact {
     margin:4vh 0px !important;
@@ -214,9 +267,11 @@ img {
     cursor:pointer;
     color:#000;
 }
+
 .project div {
     font-weight:normal;
 }
+
 .btn_two {
     color:#000;
     padding:10px 40px;
@@ -346,3 +401,5 @@ button:focus {
 50% {background-position: 100% 50%}
 100% {background-position: 0% 50%}
 }
+
+
